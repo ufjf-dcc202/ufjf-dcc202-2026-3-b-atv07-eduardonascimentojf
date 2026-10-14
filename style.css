@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+.estilo1 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: aqua; 
+    font-size: x-large;
+}
+.estilo2, .estilo3 {
+    color: red;
+    padding: 10px 5px 5px 10px;
+    
+    ol{
+        border: 1px solid red;
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+    }
+    :hover{
+        background-color: red;
+        color: white;
+        cursor: pointer;
+    }
+}
+span{
+    font-style: italic; 
+    font-weight: bolder; 
+    color: black;
+    text-decoration: underline; 
+}    
+em{
+    font-style: italic; 
+    font-weight: bolder; 
+    color: black;
+}
